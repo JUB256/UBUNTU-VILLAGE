@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBUNTU VILLAGE BUSINESS HUB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="ubuntulogo.png"alt="Logo" class="logo">
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to UBUNTU VILLAGE BUSINESS HUB</h1>
+            <p>Empowering Communities Through Skills and Sustainability</p>
+            <img src="images/hero-image.jpg" alt="UBUNTU VILLAGE" class="transition">
+        </section>
+
+        <section class="overview">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Gathering Centre for Hire</h3>
+                <p>Host your events in our spacious gathering centre.</p>
+            </div>
+            <div class="service">
+                <h3>Kitchen Gardening Demonstrations</h3>
+                <p>Learn sustainable gardening practices.</p>
+            </div>
+            <div class="service">
+                <h3>Environmental Protection Initiatives</h3>
+                <p>Join us in our tree planting and restoration efforts.</p>
+            </div>
+            <div class="service">
+                <h3>Skilling Programs</h3>
+                <p>Enhance your skills in various trades.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email: info@ubuntuvillage.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Ubuntu St, City, Country</p>
+            </div>
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <a href="https://www.facebook.com/Kwikiriza Jubilee">Facebook</a>
+                <a href="https://www.twitter.com/@Jubileehills9">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="newsletter">
+                <h4>Newsletter Signup</h4>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; <span id="year"></span> Ubuntu Village. All rights reserved.</p>
+        </footer>
+    
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

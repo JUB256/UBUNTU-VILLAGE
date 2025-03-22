@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - UBUNTU VILLAGE BUSINESS HUB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="ubuntulogo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Our Services</h1>
+        
+        <div class="service">
+            <h2>Gathering Centre for Hire</h2>
+            <img src="images/gathering-centre.jpg" alt="Gathering Centre" class="transition">
+            <p>Host your events in our spacious gathering centre, equipped with all necessary amenities to make your event a success. Whether it's a wedding, conference, or community event, we have the space for you.</p>
+        </div>
+
+        <div class="service">
+            <h2>Kitchen Gardening Demonstrations</h2>
+            <img src="images/kitchen-gardening.jpg" alt="Kitchen Gardening" class="transition">
+            <p>Join our workshops to learn sustainable gardening practices that you can implement at home. Our experts will guide you through the process of creating your own kitchen garden.</p>
+        </div>
+
+        <div class="service">
+            <h2>Environmental Protection Initiatives</h2>
+            <img src="images/environmental-protection.jpg" alt="Environmental Protection" class="transition">
+            <p>Participate in our tree planting and restoration efforts to help keep our environment green and healthy. Get involved in community clean-up days and learn about conservation.</p>
+        </div>
+
+        <div class="service">
+            <h2>Skilling Programs</h2>
+            <p></p><img src="SKILLING.png" alt="SKILLING" class="service-image">
+            <img src="welding.png" alt="Skilling Program 5" class="service-image">
+            <img src="restaurant.png" alt="Skilling Program 5" class="service-image">
+            <img src="hairdressing.png" alt="Skilling Program 5" class="service-image">
+            
+            <p>Enhance your skills in various trades such as motorcycle mechanics, carpentry, welding, hairdressing, and tailoring. Our programs are designed to empower individuals with practical skills for employment.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email: info@ubuntuvillage.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Ubuntu St, City, Country</p>
+            </div>
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="newsletter">
+                <h4>Newsletter Signup</h4>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; <span id="year"></span> Ubuntu Village. All rights reserved.</p>
+        </footer>
+    
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

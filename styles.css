@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1f3a; /* Dark Blue background for the body */
+    color: #ff7844; /* Light Orange text for better readability */
+}
+
+
+header {
+    background: #ffffff; /* Light background for the header */
+    color: #1b1f3a; /* Dark Blue text */
+    padding: 15px 0; /* Adjusted padding for top and bottom */
+    display: flex;
+    flex-direction: column; /* Stack logo and nav vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+
+.logo {
+    width: 300px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 50px; /* Space between logo and heading */
+    vertical-align: middle; /* Align logo with text */
+}
+
+header {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+nav {
+    width: 100%; /* Full width for nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the navigation items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    color: #1b1f3a; /* Dark Blue links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a64942; /* Red on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #ff7844; /* Light Orange for headings */
+}
+
+.service {
+    background: #ffffff; /* White background for service sections */
+    border: 1px solid #a64942; /* Red border */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background: #1b1f3a; /* Dark Blue footer */
+    color: #ff7844; /* Light Orange text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.contact-info, .social-media, .newsletter {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.social-media a {
+    display: block;
+    color: #ff7844; /* Light Orange links */
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.social-media a:hover {
+    color: #a64942; /* Red on hover */
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #a64942; /* Red border */
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #ff7844; /* Light Orange button */
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #a64942; /* Red on hover */
+}
+
+/* Contact Form Styles */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a64942; /* Red border */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #ff7844; /* Light Orange button */
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #a64942; /* Red on hover */
+}
+.image-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space images evenly */
+    align-items: center; /* Center images vertically */
+    overflow: hidden; /* Hide overflow if needed */
+}
+.service-image {
+    max-width: 50%; /* Make the image responsive */
+    width: 100px; /* Set a specific width */
+    height: 50px; /* Maintain aspect ratio */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Center the image if needed */
+}
+.service-image:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
